@@ -1,0 +1,15 @@
+﻿[qt] # Qt interface
+
+# Resize interface to the native video size (真偽値)
+qt-video-autoresize=0
+
+# Ask for network policy at start (真偽値)
+qt-privacy-ask=0
+
+[core] # core program
+
+# Use only one instance when started from file manager (真偽値)
+one-instance-when-started-from-file=0
+
+# Mouse wheel vertical axis control (整数)
+hotkeys-y-wheel-mode=2
