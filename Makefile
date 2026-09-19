@@ -5,6 +5,7 @@ $(if $(DIR), ,$(error The installation directory is not found))
 all:
 
 install: vlcrc
+	mkdir -p $(DIR)
 	cp -a $+ $(DIR)
 
 uninstall:
